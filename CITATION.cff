@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you find this dataset useful in your research, please consider citing the article below."
-title: "Temporally Labeled Malicious PDF Feature Dataset (Sample)"
+title: "MalPDF-EFS: Enhanced Feature Set Dataset for Malicious PDF Detection (Benign, Old, and Recent Malicious Samples)"
 type: dataset
 authors:
   - family-names: Choi
