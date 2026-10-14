@@ -9,9 +9,9 @@ A sample of the feature data used in the following article:
 **If you find this dataset useful in your research, please consider citing the article above.**
 A BibTeX entry is provided in the [Citation](#citation) section. Thank you.
 
-Each PDF is labeled by the period in which it was created: `benign`, `old_malicious` (before 2020),
-or `recent_malicious` (2020-2024). The features themselves are static features of a PDF file, not
-time-series features.
+Malicious PDFs are labeled by the period in which they were created: `old_malicious` (before 2020)
+or `recent_malicious` (2020-2024). Benign PDFs (`benign`) are not split by period. The features
+themselves are static features of a PDF file, not time-series features.
 
 ## What this is
 
