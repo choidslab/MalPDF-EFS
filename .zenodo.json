@@ -1,7 +1,7 @@
 {
   "title": "MalPDF-EFS: Enhanced Feature Set Dataset for Malicious PDF Detection (Benign, Old, and Recent Malicious Samples)",
   "upload_type": "dataset",
-  "description": "<p>MalPDF-EFS is a sample of the feature data used in: D.-S. Choi, T. Kim, B. Kang, and E. G. Im, \"Machine learning-based detection method for malicious PDF files: A temporal classification approach,\" Applied Soft Computing, vol. 189, Art. no. 114461, Mar. 2026, available online 23 Dec. 2025 (https://doi.org/10.1016/j.asoc.2025.114461).</p><p>In the paper, malicious PDF files were collected from public malware repositories and the Contagio dataset, and grouped by creation date into old (created before 2020) and recent (created in 2020-2024) malicious PDF files. After comparing the groups, 12 new features were added to the basic feature set of 31 features, giving an enhanced feature set of 43 features.</p><p>This dataset contains 1,000 randomly sampled PDF files for each of three groups (benign, old malicious, recent malicious), 3,000 in total, as two feature sets: FS31 (basic feature set) and FS43 (enhanced feature set). It is a sample of the experimental data, not the full dataset. Only extracted features are included; PDF files, file names, and file hashes are not.</p><p>If you find this dataset useful in your research, please consider citing the article above.</p>",
+  "description": "<p><strong>If you find this dataset useful in your research, please consider citing the following article:</strong><br>D.-S. Choi, T. Kim, B. Kang, and E. G. Im, \"Machine learning-based detection method for malicious PDF files: A temporal classification approach,\" Applied Soft Computing, vol. 189, Art. no. 114461, Mar. 2026. https://doi.org/10.1016/j.asoc.2025.114461</p><p>MalPDF-EFS is a sample of the feature data used in: D.-S. Choi, T. Kim, B. Kang, and E. G. Im, \"Machine learning-based detection method for malicious PDF files: A temporal classification approach,\" Applied Soft Computing, vol. 189, Art. no. 114461, Mar. 2026, available online 23 Dec. 2025 (https://doi.org/10.1016/j.asoc.2025.114461).</p><p>In the paper, malicious PDF files were collected from public malware repositories and the Contagio dataset, and grouped by creation date into old (created before 2020) and recent (created in 2020-2024) malicious PDF files. After comparing the groups, 12 new features were added to the basic feature set of 31 features, giving an enhanced feature set of 43 features.</p><p>This dataset contains 1,000 randomly sampled PDF files for each of three groups (benign, old malicious, recent malicious), 3,000 in total, as two feature sets: FS31 (basic feature set) and FS43 (enhanced feature set). It is a sample of the experimental data, not the full dataset. Only extracted features are included; PDF files, file names, and file hashes are not.</p>",
   "creators": [
     {
       "name": "Choi, Doo-Seop",
@@ -38,5 +38,9 @@
       "resource_type": "publication-article",
       "scheme": "doi"
     }
-  ]
+  ],
+  "references": [
+    "D.-S. Choi, T. Kim, B. Kang, and E. G. Im, \"Machine learning-based detection method for malicious PDF files: A temporal classification approach,\" Applied Soft Computing, vol. 189, Art. no. 114461, Mar. 2026. https://doi.org/10.1016/j.asoc.2025.114461"
+  ],
+  "notes": "Please cite the following article when using this dataset: D.-S. Choi, T. Kim, B. Kang, and E. G. Im, \"Machine learning-based detection method for malicious PDF files: A temporal classification approach,\" Applied Soft Computing, vol. 189, Art. no. 114461, Mar. 2026. https://doi.org/10.1016/j.asoc.2025.114461"
 }
