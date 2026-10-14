@@ -1,17 +1,42 @@
 {
-  "title": "Malicious PDF Temporal Feature Dataset (sample)",
+  "title": "Temporally Labeled Malicious PDF Feature Dataset (Sample)",
   "upload_type": "dataset",
-  "description": "<p>A sample of the feature data used in: D.-S. Choi, T. Kim, B. Kang, and E. G. Im, \"Machine learning-based detection method for malicious PDF files: A temporal classification approach,\" Applied Soft Computing, vol. 189, 114461, 2026 (https://doi.org/10.1016/j.asoc.2025.114461).</p><p>The dataset contains 1,000 randomly sampled PDF files for each of three groups (benign, old malicious, recent malicious), 3,000 in total, as two feature sets: FS31 (31 basic structural features) and FS43 (the 31 basic features plus the 12 features proposed in the paper). It is a part of the experimental data, not the full dataset. Only extracted features are included; PDF files, file names, and file hashes are not.</p><p>If you use this data, please cite the article above.</p>",
+  "description": "<p>A sample of the feature data used in: D.-S. Choi, T. Kim, B. Kang, and E. G. Im, \"Machine learning-based detection method for malicious PDF files: A temporal classification approach,\" Applied Soft Computing, vol. 189, Art. no. 114461, Mar. 2026, available online 23 Dec. 2025 (https://doi.org/10.1016/j.asoc.2025.114461).</p><p>The dataset contains 1,000 randomly sampled PDF files for each of three groups labeled by creation period (benign; old malicious, created before 2020; recent malicious, created in 2020-2024), 3,000 in total, as two feature sets: FS31 (31 basic structural features) and FS43 (the 31 basic features plus the 12 features proposed in the paper). It is a part of the experimental data, not the full dataset. Only extracted features are included; PDF files, file names, and file hashes are not.</p><p>If you find this dataset useful in your research, please consider citing the article above.</p>",
   "creators": [
-    {"name": "Choi, Doo-Seop", "affiliation": "Hanyang University"},
-    {"name": "Kim, Taeguen", "affiliation": "Korea University Sejong Campus"},
-    {"name": "Kang, BooJoong", "affiliation": "University of Southampton"},
-    {"name": "Im, Eul Gyu", "affiliation": "Hanyang University"}
+    {
+      "name": "Choi, Doo-Seop",
+      "affiliation": "Hanyang University"
+    },
+    {
+      "name": "Kim, Taeguen",
+      "affiliation": "Korea University Sejong Campus"
+    },
+    {
+      "name": "Kang, BooJoong",
+      "affiliation": "University of Southampton"
+    },
+    {
+      "name": "Im, Eul Gyu",
+      "affiliation": "Hanyang University"
+    }
   ],
   "license": "cc-by-4.0",
   "access_right": "open",
-  "keywords": ["malicious PDF", "malware detection", "PDF features", "temporal classification", "machine learning", "dataset"],
+  "keywords": [
+    "malicious PDF",
+    "malware detection",
+    "PDF features",
+    "temporal classification",
+    "machine learning",
+    "dataset",
+    "temporally labeled"
+  ],
   "related_identifiers": [
-    {"identifier": "10.1016/j.asoc.2025.114461", "relation": "isSupplementTo", "resource_type": "publication-article", "scheme": "doi"}
+    {
+      "identifier": "10.1016/j.asoc.2025.114461",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
   ]
 }

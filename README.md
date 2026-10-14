@@ -1,12 +1,17 @@
-# Malicious PDF Temporal Feature Dataset (sample)
+# Temporally Labeled Malicious PDF Feature Dataset (Sample)
 
-A sample of the feature data used in:
+A sample of the feature data used in the following article:
 
 > D.-S. Choi, T. Kim, B. Kang, and E. G. Im, "Machine learning-based detection method for malicious
-> PDF files: A temporal classification approach," *Applied Soft Computing*, vol. 189, 114461, 2026.
-> https://doi.org/10.1016/j.asoc.2025.114461
+> PDF files: A temporal classification approach," *Applied Soft Computing*, vol. 189, Art. no. 114461,
+> Mar. 2026 (available online 23 Dec. 2025). https://doi.org/10.1016/j.asoc.2025.114461
 
-**If you use this data, please cite the paper above** (BibTeX below).
+**If you find this dataset useful in your research, please consider citing the article above.**
+A BibTeX entry is provided in the [Citation](#citation) section. Thank you.
+
+Each PDF is labeled by the period in which it was created: `benign`, `old_malicious` (before 2020),
+or `recent_malicious` (2020-2024). The features themselves are static features of a PDF file, not
+time-series features.
 
 ## What this is
 
@@ -72,6 +77,8 @@ group were drawn uniformly at random with a fixed seed (42).
 
 ## Citation
 
+If you use this dataset, please cite:
+
 ```bibtex
 @article{choi2026temporal,
   author  = {Choi, Doo-Seop and Kim, Taeguen and Kang, BooJoong and Im, Eul Gyu},
@@ -80,6 +87,8 @@ group were drawn uniformly at random with a fixed seed (42).
   volume  = {189},
   pages   = {114461},
   year    = {2026},
+  month   = mar,
+  note    = {Available online 23 December 2025},
   doi     = {10.1016/j.asoc.2025.114461}
 }
 ```

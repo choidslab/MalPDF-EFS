@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite the article below."
-title: "Malicious PDF Temporal Feature Dataset (sample)"
+message: "If you find this dataset useful in your research, please consider citing the article below."
+title: "Temporally Labeled Malicious PDF Feature Dataset (Sample)"
 type: dataset
 authors:
   - family-names: Choi
@@ -28,4 +28,5 @@ preferred-citation:
   volume: 189
   start: 114461
   year: 2026
+  month: 3
   doi: "10.1016/j.asoc.2025.114461"
