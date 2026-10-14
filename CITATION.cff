@@ -12,6 +12,8 @@ authors:
   - family-names: Im
     given-names: Eul Gyu
 license: CC-BY-4.0
+doi: 10.5281/zenodo.23356149
+repository-code: "https://github.com/choidslab/MalPDF-EFS"
 preferred-citation:
   type: article
   title: "Machine learning-based detection method for malicious PDF files: A temporal classification approach"

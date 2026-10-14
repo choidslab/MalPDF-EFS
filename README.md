@@ -1,5 +1,7 @@
 # MalPDF-EFS: Enhanced Feature Set Dataset for Malicious PDF Detection (Benign, Old, and Recent Malicious Samples)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23356149.svg)](https://doi.org/10.5281/zenodo.23356149)
+
 **MalPDF-EFS** is a sample of the feature data used in the following article:
 
 > D.-S. Choi, T. Kim, B. Kang, and E. G. Im, "Machine learning-based detection method for malicious
@@ -124,6 +126,19 @@ If you use this dataset, please cite:
   month   = mar,
   note    = {Available online 23 December 2025},
   doi     = {10.1016/j.asoc.2025.114461}
+}
+```
+
+The dataset itself is archived on Zenodo (https://doi.org/10.5281/zenodo.23356149). If you would
+also like to refer to the dataset directly:
+
+```bibtex
+@dataset{choi2026malpdfefs,
+  author    = {Choi, Doo-Seop and Kim, Taeguen and Kang, BooJoong and Im, Eul Gyu},
+  title     = {{MalPDF-EFS}: Enhanced Feature Set Dataset for Malicious {PDF} Detection (Benign, Old, and Recent Malicious Samples)},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23356149}
 }
 ```
 
