@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the article below."
+title: "Malicious PDF Temporal Feature Dataset (sample)"
+type: dataset
+authors:
+  - family-names: Choi
+    given-names: Doo-Seop
+  - family-names: Kim
+    given-names: Taeguen
+  - family-names: Kang
+    given-names: BooJoong
+  - family-names: Im
+    given-names: Eul Gyu
+license: CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "Machine learning-based detection method for malicious PDF files: A temporal classification approach"
+  authors:
+    - family-names: Choi
+      given-names: Doo-Seop
+    - family-names: Kim
+      given-names: Taeguen
+    - family-names: Kang
+      given-names: BooJoong
+    - family-names: Im
+      given-names: Eul Gyu
+  journal: "Applied Soft Computing"
+  volume: 189
+  start: 114461
+  year: 2026
+  doi: "10.1016/j.asoc.2025.114461"
