@@ -99,10 +99,10 @@ CIC-Evasive-PDFMal2022; please also cite that dataset when you use these feature
 | `modDate` | modDate | 1 if a valid modification date is recorded, else 0 |
 | `font` | font | number of fonts |
 | `email` | email | number of email addresses |
-| `image size` | embedded image size | total size of embedded images |
+| `image size` | embedded image size | total size of embedded images (bytes) |
 | `graphics` | graphics | number of vector graphic objects |
 
-Notes: values are the raw extractor output. `pdfsize` is in bytes (the paper reports KB), and
+Notes: values are the raw extractor output. `pdfsize` and `image size` are in bytes (the paper reports KB), and
 `layout size` is not log-scaled (the paper reports the log10 value). `header` is the PDF version
 string and is the only non-numeric feature.
 
